@@ -149,7 +149,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  display: flex;
 }
 
 .order-button {
@@ -163,7 +162,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
+
   align-items: center;
 
   letter-spacing: 0.06em;
@@ -339,6 +338,11 @@ body {
   color: var(--main-color);
 }
 /* picture-gadget */
+.gadgets-pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
 .gadgets {
   list-style: none;
 }
@@ -673,6 +677,10 @@ body {
 /* team */
 .team {
   background: var(--new-color);
+}
+.our-team-photos {
+  display: flex;
+  justify-content: space-between;
 }
 
 .our-team {
